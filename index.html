@@ -1,0 +1,2351 @@
+<html>
+    
+<head>
+
+    <script type ="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script type ="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/jquery-steps.css">
+    <link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/signature-pad.css">
+    <link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/form.css">
+    <link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/annotations.css">  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ramakrishnas.zenoti.com/Common/Scripts/HtmlForms/jQueryUI.1.12.1.js"></script>
+    <script src="https://ramakrishnas.zenoti.com/Common/Scripts/HtmlForms/Bootstrapv3.3.7.js"></script>
+    <script src="https://ramakrishnas.zenoti.com/Common/Scripts/HtmlForms/JQuery.validate1.17.0.js"></script>
+    <script src="https://ramakrishnas.zenoti.com/Common/Scripts/HtmlForms/JQuery-AdditionalMethods1.16.0.js"></script>
+    <script src="https://ramakrishnas.zenoti.com/Common/Scripts/HtmlForms/signature_pad.js?v=20190904085950"></script>
+    <script src="https://ramakrishnas.zenoti.com/Common/Scripts/HtmlForms/jquery.steps.min.js"></script>
+    <script src="https://ramakrishnas.zenoti.com/Common/Scripts/HtmlForms/Annotation.js?v=20190904085950"></script>
+    <script src="https://ramakrishnas.zenoti.com/Common/Scripts/HtmlForms/Form.js?v=20191113085956"></script>  
+                                                               
+    <link href="https://fonts.googleapis.com/css?family=sans-serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <!-- <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!-- <script src="contextmenu.js"></script>
+    <link rel="stylesheet" href="contextmenu.css" /> -->
+    
+    <style>
+/* Body Css Start */
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+input{
+    font-weight: 100 !important;
+}
+.btn{
+    background-color: #6c757d !important;
+    color: white !important; 
+}
+
+body {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/');
+    background-size: cover;
+    background-position: center;
+  }
+  h1 b {
+    font-weight: 100 !important;
+  }
+/* Body Css End */
+
+    /* Header Css start */
+    .Banner{
+    padding: 10px;
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .navbar {
+    margin-bottom: 0px !important;
+  }
+  .dropdown-menu {
+   
+    width: 100%;
+  }
+  .dropdown-item {
+   
+    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #6c757d;
+}
+button#dropdownMenuButton:hover {
+    color: #fff !important;
+}
+a.dropdown-item:hover {
+    background-color: #6c757d;
+    color: white;
+}
+.CustomCss
+{
+    max-width: 300px;
+}
+
+.CustomCss1 
+{
+    height: 2em;
+    position: relative 
+}
+.CustomCss {
+    margin: 0; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+  @media (min-width: 768px)
+  {
+    .navbar-collapse.collapse {
+        display: flex !important;
+    }
+    .navbar-nav>li>a {
+        padding-top: 7px;
+        padding-bottom: 5px;
+    }
+    .navbar-nav>li {
+        margin: 1%;
+    }
+  }  
+  .LoginBtn
+  {
+    padding-top: 8px !important;
+    padding-bottom: 5px !important;
+  }
+  /* Header css end */
+
+  /* Body css start */
+  
+  .Row{
+      padding: 1%;
+  }
+  .Zoom
+  {
+    zoom: 1.5;
+
+  }
+  div#navbarResponsive {
+    display: flex !important;
+}
+.LineHeight{
+    line-height: 0px !important;
+}
+#Generate
+{
+    opacity: 0.5;
+    pointer-events: none;
+}
+        .UpdateDiv
+        {
+            display: none;
+            /* pointer-events: none;
+            opacity: 0.5; */
+        }
+.BtnCss{
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #6c757d !important;
+    color: white !important;
+}
+div#BreadCrumb .col-sm-1, .col-sm-2 {
+    padding: 1px;
+}
+div#BreadCrumb .col-sm-2 {
+    padding: 1px;
+}
+   /* Body css end */
+   
+   /* Custom Menu start */
+   .show {
+            z-index: 1000;
+            position: absolute;
+            background-color: #e0e0e0;
+            border: 1px solid #e0e0e0;
+            padding: 2px;
+            display: block;
+            margin: 0;
+            list-style-type: none;
+            list-style: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,.3);
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #999;
+            border: 1px solid rgba(0,0,0,.2);
+            border-radius: 6px;
+            -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.3);
+            box-shadow: 0 3px 9px rgba(0,0,0,.3);
+            outline: 0;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .show li {
+            list-style: none;
+        }
+
+        .show a {
+            border: 0 !important;
+            text-decoration: none;
+        }
+
+        .show a:hover {
+            text-decoration: underline !important;
+        }
+        ol, ul {
+        margin-top: 0;
+        margin-bottom: 0px !important;
+    }
+    .unli li
+{
+    padding: 5px 15px;
+    
+}
+.unli
+{
+    padding: 0px !important;
+}
+.unli li:hover
+{
+    cursor: pointer;
+}
+.Space
+{
+    margin-top: 1%;
+}
+.LogoSpace
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+.Title
+{
+    Font-Size : 24px !important;
+    Font-Weight : bold !important;
+}
+.Heading
+{
+    Font-Size : 20px !important;
+    Font-Weight : bold !important;
+}
+
+.SubHeading
+{
+    Font-Size : 18px !important;
+    Font-Weight : bold !important;
+}
+
+.label
+{
+    Font-Size : 16px !important;
+    Font-Weight : bold !important;
+    color: black !important;
+}
+
+.Paragraph
+{
+    Font-Size : 15px !important;
+    Font-Weight : 100 !important;
+}
+.Italic
+{
+    font-style: italic !important;
+}
+
+
+.container {
+    width: 1800px !important;
+}
+.container {
+     
+    max-width: none !important;
+}
+label[class*='CustomID']::after {
+     content: "*"; 
+     color: red;
+     font-weight: bolder;
+     }
+    .DisplayNone
+    {
+       visibility: hidden;
+    }
+   /* Custom Menu End */
+    </style>
+
+      <script type="text/javascript">
+        var Body = "";
+        var HtmlArry = [];
+        var S = "script";
+        var TitleVar = "";
+        var GeneratedHtml = "";
+        var FullRowEnd = "";
+        var FullRowStart = "";
+        var Size = "";
+        var Flag1 = 0;
+        var Flag2 = 0;
+        var ElementId = "";
+        var Flag = 0;
+        var ValidationFlag = 0;
+        var OptionOne = "";
+        var SecondOption = "";
+        var SPaceFlag = 0;
+        var SPaceFlagV2 = 0;
+        var SPaceFlagV3 = 0;
+        var TextBox = "";
+        var Temp = "";
+        var CheckBoxCount = 0;
+        var CheckBoxString = "";
+        var Macro = "";
+        var Italic = "";
+        var Class = "";
+        var Type = "";
+        var date = "";
+        var CustomScript = "";
+        var SignatureData = {};
+        var FillingFlag = 0;
+        var ReqFlag = 0;
+        var ScriptArrayNumber = 0;
+        var BodyV2 = "";
+        var HtmlV2 = "";
+        var FormUpdateFlag = 0;
+        var FormUpdateFlag2 = 0;
+        var TestParam = [];
+        TestParam[0] = {"UserPassword" : "0"};
+        var Formtext = "";
+        var FormDataObject = {};
+        FormDataObject.FormDataArray = [];
+        FormDataObject.JsonDataArray = [];
+        var SignArray = [];
+        var GeneratedScript = "";
+           var DynamicScript = "";
+           let AppendFlag = 0;
+           var SigPrevFlag = 1;
+
+
+           var PropertyAssign = {};
+               PropertyAssign.PropertyNames = [];
+           var Json_flag_guest_View = false;
+           var Json_flag_guest_Edit = false;
+           var Radio_Option_Custom_flag = false;
+           var Json_flag_Required_View = false;
+
+       
+
+
+
+        SignatureData.SignatureArray = [];
+ 
+       $(document).ready(function()
+       {
+         
+
+            AuthorizedFunc(TestParam);
+
+            $("#LoginBtn").click(function(){
+
+                    if(!$("#UserName").val() || !$("#Password").val())
+                    {
+                        alert("Please enter Username and pasword");
+                    }
+                    else
+                    {
+                        $.ajax ({
+ 
+                            type        : "GET",  
+                            dataType    : "json", 
+                            url         : "http://localhost:59383/api/values/GuestInfo/"+$("#UserName").val(),
+                            async       : false,
+                            contentType : "application/json",
+                            headers     : {
+                                                'Access-Control-Allow-Origin': '*',
+                                          },
+                            statusCode  : {
+                                                400:function() { console.log("400"); },
+                                                201:function() { console.log("201"); },
+                                                200:function() { console.log("200"); }
+                                          },
+                            success     : function(data, status)
+                                          {
+                                                console.log(status);
+                                                console.log(data);
+                                                AuthorizedFunc(data);
+
+                                          },
+                            error       : function(status)
+                                          {
+                                                alert(status);
+                                          }
+                        
+                    });
+                  }
+                });
+        
+        if ($("#test").addEventListener) {
+            
+            $("#test").addEventListener('contextmenu', function (e) {
+                alert("You've tried to open context menu");
+                e.preventDefault();
+            }, false);
+        } else {
+ 
+            $('body').on('contextmenu', '.test', function () { 
+              
+                ElementId = $(this).attr("id");
+                ElementName = $(this).attr("name"); 
+                Element_ID = $(this).attr("id"); 
+                CB_count = $(this).attr("placeholder"); 
+                document.getElementById("rmenu").className = "show";
+                document.getElementById("rmenu").style.top = mouseY(event) + 'px';
+                document.getElementById("rmenu").style.left = mouseX(event) + 'px';
+
+                window.event.returnValue = false;
+
+            });
+            }
+
+            // this is from another SO post...  
+            $(document).bind("click", function (event) {
+            document.getElementById("rmenu").className = "hide";
+            });
+
+            function mouseX(evt) {
+            if (evt.pageX) {
+                return evt.pageX;
+            } else if (evt.clientX) {
+                return evt.clientX + (document.documentElement.scrollLeft ?
+                    document.documentElement.scrollLeft :
+                    document.body.scrollLeft);
+            } else {
+                return null;
+            }
+            }
+
+            function mouseY(evt) {
+            if (evt.pageY) {
+                return evt.pageY - 300;
+            } else if (evt.clientY) {
+                return evt.clientY + (document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop);
+            } else {
+                return null;
+            }
+            }
+
+
+           $(".RowHead").css("display","none");
+           
+           Body =  `<!Doctype html><html lang="en"><head><meta charset="utf-8"><title> ` + TitleVar + `</title><link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/bootstrap.min.css"><link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/jquery-steps.css"><link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/jquery-ui.min.css"> <link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/signature-pad.css"><link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/form.css"><link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/font-awesome.css"> <link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/annotations.css">  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">   <`+S+` src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></`+S+`> <`+S+` src="https://{BaseUrl}/jQueryUI.1.12.1.js"></`+S+`> <`+S+` src="https://{BaseUrl}/Bootstrapv3.3.7.js"></`+S+`> <`+S+` src="https://{BaseUrl}/JQuery.validate1.17.0.js"></`+S+`> <`+S+` src="https://{BaseUrl}/JQuery-AdditionalMethods1.16.0.js"></`+S+`> <`+S+` src="https://{BaseUrl}/signature_pad.js"></`+S+`> <`+S+` src="https://{BaseUrl}/jquery.steps.min.js"></`+S+`> <`+S+` src="https://{BaseUrl}/Annotation.js"></`+S+`> <`+S+` src="https://{BaseUrl}/Form.js"></`+S+`> <`+S+` type="text/javascript"> window.$Annotation = $; </`+S+`> <style type="text/css"> body{ font-family:sans-serif !important; font-size: 14px !important; } .h1 { border-style: solid; border-color:#F1F1F1; border-width: 20px; padding:10px; } .h2 { border-style: solid; border-color:#F1F1F1; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; } .head1{ font-size: 20px; font-family: 'Work Sans', sans-serif; } .head2{ font-size: 18px; padding: 4px 0px 0px 0px; font-family: 'Work Sans', sans-serif; } .head3{ font-size: 14px; padding: 0px; font-family: sans-serif !important; } .para{ font-size:16px; font-weight:bold; font-family: sans-serif !important; } .para1{ font-size:15px; font-weight:400; font-family: sans-serif !important; } li{ padding: 5px; } .btn-file input[type=file] { position: absolute; top: 0; right: 0; min-width: 100%; min-height: 100%; font-size: 100px; text-align: right; filter: alpha(opacity=0); opacity: 0; outline: none; background: white; cursor: inherit; display: block; } .box-heading { border: 1px solid #F1F1F1; padding: 10px; margin-bottom: 20px !important; background: #F1F1F1; } .m-signature-pad--footer .button.clear { left: 0 !important; width: 100%; padding: 1px; font-size: 15px; text-transform: uppercase; text-align: center; } #form .col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12 { text-align:left !Important; font-size: 15px; font-family: 'Work Sans', sans-serif; } b, strong { font-weight: 700; word-break: normal; } input[type="text"] { font-weight:100; } li,b,label,span{ line-height: 1.5; } label[class*='CustomID']::after { content: "*"; color: red; font-weight: bolder;} span[class*='CustomID']::after { content: "*"; color: red; font-weight: bolder;} .col-sm-12 { line-height: 2 !important; } table, td, th { border: 1px solid #ddd; text-align: left; } table { border-collapse: collapse; width: 100%; } th, td { padding: 15px; } .image-wrapper { display: flex; flex-flow: row wrap; } .input-group-IMG { width: 100% !important; height: 100% !important; margin: 5% 0 5% 0; margin-top: 10px !Important; } .imagename { position: absolute; width: 68%; right: 0px; } .input-group-btn { width: 10%; } .input-group-IP { width: 90%; } .delete-IMG { display:none; position: absolute; right: 2.0%; width: 5%; padding-left: 1%; } .mfull a{ top:42px !important; overflow:hidden !important; } @media only screen and (max-width: 924px){ .mfull{ float: none !Important; width: 100% !important; max-width: 330px; margin-top: 5%; } } .CustomFC{ height: 34px; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; color: #555; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius: 4px; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075); box-shadow: inset 0 1px 1px rgba(0,0,0,.075); }.Space{margin-top:1%;}.LogoSpace{margin-top:2%;margin-bottom:2%;}.Title{Font-Size:24px!important;Font-Weight:bold!important;}.Heading{Font-Size:20px!important;Font-Weight:bold!important;}.SubHeading{Font-Size:18px!important;Font-Weight:bold!important;}.label{Font-Size:16px!important;Font-Weight:bold!important;color:black!important;}.Paragraph{Font-Size:15px!important;Font-Weight:100!important;}.Italic{font-style:italic!important;} </style> <`+S+` type="text/javascript"> $(document).ready(function() { resizeSignatures(); $(window).resize(function() { resizeSignatures(); }); $('#form').focusout(function (e) { var reqAttr = $(e.target).attr('required'); errorMessage(e, reqAttr); }); $("input[type='radio']").change(function(){ var mv = $(this).attr('name'); $('#'+mv+'-error').css('display','none'); $("input[name='"+mv+"']").css('border','1px solid #cccccc'); $('#errorMessage_'+mv).css('display','none'); }); $('input[name^="date"]').datepicker({ dateFormat: "mm/dd/yy", changeMonth: true, changeYear: true, yearRange: "-100:+0" }); $('input[name^="date"]').change(function (e) { var reqAttr = $(e.target).attr('required'); errorMessage(e, reqAttr); }); }); </`+S+`> </head> <body> <form id="form" class='sigPad' action=""> <input type="submit" class="btn btn-default" style="display: none; position: absolute; left:750px;top:7px;"> <div class="panel body-innerwrapper" style="margin: 0%; padding: 1%"> <div class=" small"> <div class="h1"> <div class="h2"> <div>&nbsp;</div> <div class="col-sm-12" id="Html"></div> <div class="col-sm-12"></div> <div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div> </div> </div> </div> </div> </form> </body> </html>`;
+
+
+            $("#ResultForm").append(Body);
+
+                
+                $("#Generate").click(function(){
+                      
+                     DynamicElementsGeneratingFunc(0);
+
+                });
+
+                $(".LogoV2").change(function(){
+                    alert("");debugger;
+                  if($("#FieldType").val() == "Logo")
+                    {
+                     
+                        ValidationFunc('LogoV2');
+                    }
+                });
+                
+                $(".RadioButtonV2").change(function(){
+                    if($("#FieldType").val() == "RadioButton")
+                        {
+                         ValidationFunc('RadioButtonV2');
+                        }
+                });
+                
+                $(".CheckBoxV2").change(function(){
+                    
+                    if($("#FieldType").val() == "CheckBoxV1")
+                        {
+                            ValidationFunc('CheckBoxV2');
+                        }
+                });
+
+                $(".SignatureV2").change(function()
+                {
+                    if($("#FieldType").val() == "Signature")
+                        {
+                             ValidationFunc('SignatureV2');
+                        }
+                });
+
+                $("#ItalicCheckBox").click(function()
+                {
+                    if($("#ItalicCheckBox").is(":checked"))
+                    {
+                        Italic  = "Italic";
+                    }
+                    else
+                    {
+                        Italic = "";
+                    }
+                    
+                });
+
+               $(".Field").change(function()
+               {
+                if($("#FieldType").val() == "TextBox" || $("#FieldType").val() == "TextArea")
+                {
+                    if($("#FieldType").val() == "TextArea")
+                    ValidationFlag = parseInt(ValidationFlag) + parseInt(1);
+                    ValidationFunc('Field');
+                }
+               });
+               $(".TextV2").change(function()
+               {
+                   if($("#FieldType").val() == "Text")
+                    ValidationFunc('TextV2');
+               });
+
+               $("#Required").click(function(){
+
+
+
+                if( $(this).is(":checked") && $("#FieldType").val() == "Signature" )
+                   $(".GuestSignCheckBox").css("display", "block");
+                   else
+                   $(".GuestSignCheckBox").css("display", "none");
+                   if($("#SignGuestYes").is(":checked"))
+                   {
+                       $("#SignGuestYes").prop("checked", false);
+                   }
+
+               });
+
+               $("#SignGuestYes").click(function()
+               {
+                  if($(this).is(":checked"))
+                       FillingFlag = 1;
+                    else
+                       FillingFlag = 0;
+               });
+
+              
+
+                $(".CommonFieldV2").change(function()
+                {
+                    if($("#FieldType").val() == "Logo")
+                    {
+                        ValidationFunc('LogoV2');
+                    }   
+                    if($("#FieldType").val() == "RadioButton")
+                    {
+                         ValidationFunc('RadioButtonV2');
+                    }
+                    if($("#FieldType").val() == "CheckBoxV1")
+                    {
+                         ValidationFunc('CheckBoxV2');
+                    }
+                    if($("#FieldType").val() == "TextBox" || $("#FieldType").val() == "TextArea")
+                    {
+                        ValidationFunc('Field');
+                    }
+                    if($("#FieldType").val() == "Text")
+                    {
+                        ValidationFunc('TextV2');
+                    }
+                    if($("#FieldType").val() == "Signature")
+                    {
+                        ValidationFunc('SignatureV2');
+                    }
+
+ 
+                });
+
+                $("#Update").click(function(){
+                  
+                    UpdateElement();
+                    /*Save as new form*/
+
+                });
+                
+               
+ 
+        });
+        function DynamicElementsGeneratingFunc(Flag)    
+        {
+          ValidationFlag = 0;
+          GridFunc();
+          GeneratedHtml = "";
+                      switch ($("#FieldType").val())
+                      {
+                          
+                          case "Logo" : 
+                          alert(""); debugger;
+                            var Logo = $("#"+$("#FieldType").val()).val() ?  $("#"+$("#FieldType").val()).val() : alert("Enter Logo URL");
+                            
+                            var Position = $("#Position").val();
+
+                            if(Flag)
+                                {
+                                HtmlArry[ElementId] = FullRowStart +` <div class="col-sm-`+ Size +` LogoSpace"> <center> <img name="Logo" id="`+ ElementId +`" class="test" style="max-width: 250px;float:` + Position + `;" src="`+ Logo +`" placeholder=`+ElementId+`></img> </center> </div> ` + FullRowEnd;
+                                
+                                Flag = 0;
+                                
+                                PropertyAssign.PropertyNames[ElementId] = {
+                                                                                "Size" : Size,
+                                                                                "Position" : Position,
+                                                                                "Logo"   : Logo,
+                                                                                "GuestView" : Json_flag_guest_View,
+                                                                                "GuestEdit"  : Json_flag_guest_Edit
+                                                                          };
+
+                                                                          ElementId = null;                                
+                                }
+                               else
+                               {
+                                 HtmlArry[HtmlArry.length] = FullRowStart +` <div class="col-sm-`+ Size +` LogoSpace"> <center> <img name="Logo" id="`+ HtmlArry.length +`" class="test" style="max-width: 250px;float:` + Position + `;" src="`+ Logo +`" placeholder=`+HtmlArry.length+`></img> </center> </div> ` + FullRowEnd;
+
+                                 PropertyAssign.PropertyNames[(HtmlArry.length - parseInt(1))] = {
+
+                                                                                "Size" : Size,
+                                                                                "Position" : Position,
+                                                                                "Logo"   : Logo,
+                                                                                "GuestView" : Json_flag_guest_View,
+                                                                                "GuestEdit"  : Json_flag_guest_Edit
+                                                                          };
+                               
+                                }
+                             CommonScriptsFun();
+                           
+                          break;
+                          case "RadioButton" : 
+                           
+                            Radio_Option_Custom_flag = false;
+                            if($("#Options").val() == "Custom")
+                            {
+                                OptionOne = $("#FirstOption").val();
+                                SecondOption = $("#SecondOption").val();
+                                Radio_Option_Custom_flag = true;
+                                
+                            }
+                            else
+                            {
+                                OptionOne = "Yes";
+                                SecondOption = "No";
+                            }
+                          
+                            RequiredField();
+                            if(Flag)
+                            {
+                                HtmlArry[ElementId] = FullRowStart +` <div class="col-sm-`+ Size +` Space radioGroup_radio`+ElementId+`"> <span name="RadioButton" id="`+ ElementId +`" class="`+ RequiredStar +` test" placeholder=`+ElementId+`> `+ $("#RadioQuestion").val() +` </span><br> <input type="radio" class="radio-inline `+hidefields+`" `+ viewtype +` id="radioYes`+ElementId+`" name="radio`+ElementId+`" value="radioOne" `+ RequiredVar +`> &nbsp; `+ OptionOne +` <input type="radio" class="radio-inline `+hidefields+`" `+ viewtype +` id="radioNo`+ElementId+`" name="radio`+ElementId+`" value="radioNo"> &nbsp; `+SecondOption+` </div> ` + FullRowEnd;
+                               
+                                Flag = 0; 
+
+                                PropertyAssign.PropertyNames[ElementId] = {
+
+                                                                                "Size" : Size,
+                                                                                "Radio_Option_type" : Radio_Option_Custom_flag,
+                                                                                "Required_Flag" : Json_flag_Required_View,
+                                                                                "GuestView" : Json_flag_guest_View,
+                                                                                "GuestEdit"  : Json_flag_guest_Edit,
+                                                                                "Custom_OptionOne" : OptionOne,
+                                                                                "Custom_SecondOption" : SecondOption,
+                                                                                "Question" : $("#RadioQuestion").val()
+
+                                                                                };
+                                                                                ElementId = null;
+                                
+                            }
+                            else
+                            {
+                                HtmlArry[HtmlArry.length] = FullRowStart +` <div class="col-sm-`+ Size +` Space radioGroup_radio`+HtmlArry.length+`"> <span name="RadioButton" id="`+ HtmlArry.length +`" class="`+ RequiredStar +` test" placeholder=`+HtmlArry.length+`> `+ $("#RadioQuestion").val() +` </span><br> <input type="radio" class="radio-inline `+hidefields+`" `+ viewtype +` id="radioYes`+HtmlArry.length+`" name="radio`+HtmlArry.length+`" value="radioOne" `+ RequiredVar +`> &nbsp; `+ OptionOne +` <input type="radio" class="radio-inline" id="radioNo`+HtmlArry.length+`" name="radio`+HtmlArry.length+`" value="radioNo"> &nbsp; `+SecondOption+` </div> ` + FullRowEnd;
+                            
+                                PropertyAssign.PropertyNames[(HtmlArry.length - parseInt(1))] = {
+
+                                                                "Size" : Size,
+                                                                "Radio_Option_type" : Radio_Option_Custom_flag,
+                                                                "Required_Flag" : Json_flag_Required_View,
+                                                                "GuestView" : Json_flag_guest_View,
+                                                                "GuestEdit"  : Json_flag_guest_Edit,
+                                                                "Custom_OptionOne" : OptionOne,
+                                                                "Custom_SecondOption" : SecondOption,
+                                                                "Question" : $("#RadioQuestion").val()
+
+                                                                };
+                            }
+                            CommonScriptsFun();
+                            $(".ToolCheckBox").prop("checked", false);
+            
+                          break;
+
+                          case "CheckBoxV1" : 
+
+                               RequiredField();
+                               CheckBoxFunc(CheckBoxCount);
+                               if(Flag)
+                                {
+                                    HtmlArry[ElementId] = FullRowStart +` <div class="col-sm-`+ Size +` Space"> <span name="CheckBoxV1" id="`+ ElementId +`" class="`+ RequiredStar +`test" placeholder=`+$("#Count").val().trim()+` > `+ $("#RadioQuestion").val() +` </span><br> ` + CheckBoxString + FullRowEnd;
+                                   
+                                    Flag = 0; 
+
+                                    PropertyAssign.PropertyNames[ElementId] = {
+
+                                        /* Data is not getting in Text boxes review this and add count value to count box  */
+
+                                                        "Size" : Size,
+                                                        "Check_Box_Options" : TextBox,
+                                                        "GuestView" : Json_flag_guest_View,
+                                                        "GuestEdit"  : Json_flag_guest_Edit,
+                                                        "Question" : $("#RadioQuestion").val()
+                                                        
+
+                                                        };
+                                                        ElementId = null;
+                                }
+                                else
+                                {
+                                    HtmlArry[HtmlArry.length] = FullRowStart +` <div class="col-sm-`+ Size +` Space"> <span name="CheckBoxV1" id="`+ HtmlArry.length +`" class="`+ RequiredStar +`test" placeholder=`+$("#Count").val().trim()+`> `+ $("#RadioQuestion").val() +` </span><br> ` + CheckBoxString + FullRowEnd;
+                                
+                                        PropertyAssign.PropertyNames[(HtmlArry.length - parseInt(1))] = {
+
+                                                                                        "Size" : Size,
+                                                                                        "Check_Box_Options" : TextBox,
+                                                                                        "GuestView" : Json_flag_guest_View,
+                                                                                        "GuestEdit"  : Json_flag_guest_Edit,
+                                                                                        "Question" : $("#RadioQuestion").val()
+                                                                                        
+
+                                                                                        };
+                                }
+                                CommonScriptsFun();
+                                $("#CheckBoxOptionBlock").empty();
+                                
+                          break;
+                          case "TextBox" : 
+
+                                RequiredField();
+                                if(Flag)
+                                        {
+                                            HtmlArry[ElementId] = FullRowStart +` <div class="col-sm-`+ Size +` Space"> <span name="TextBox" id="`+ ElementId +`" class="`+ RequiredStar +` test" placeholder=`+ElementId+`> `+ $("#RadioQuestion").val() +` </span><br> <input `+Type+` class="form-control `+hidefields+`" value="`+ Macro +`" `+ viewtype +` id="TextBox`+ElementId+`" name="`+date+`TextBox`+ElementId+`" `+ RequiredVar +`>  </div> ` + FullRowEnd;
+                                            PropertyAssign.PropertyNames[ElementId] = {
+
+                                                                                            "Size" : Size,
+                                                                                            "Required_Flag" : Json_flag_Required_View,
+                                                                                            "GuestView" : Json_flag_guest_View,
+                                                                                            "GuestEdit"  : Json_flag_guest_Edit,
+                                                                                            "TextBox_Type" : Type,
+                                                                                            "Macro" : Macro,
+                                                                                            "Question" : $("#RadioQuestion").val()
+                                                                                            
+                                                                                            };
+
+                                                                                            ElementId = null;
+                                       
+                                       
+                                        }
+                                        else
+                                        {
+                                            HtmlArry[HtmlArry.length] = FullRowStart +` <div class="col-sm-`+ Size +` Space"> <span name="TextBox" id="`+ HtmlArry.length +`" class="`+ RequiredStar +` test" placeholder=`+HtmlArry.length+`> `+ $("#RadioQuestion").val() +` </span><br> <input `+Type+` class="form-control `+hidefields+`" value="`+ Macro +`" `+ viewtype +` id="TextBox`+HtmlArry.length+`" name="`+date+`TextBox`+HtmlArry.length+`" `+ RequiredVar +`>  </div> ` + FullRowEnd;
+                                       
+                                            PropertyAssign.PropertyNames[(HtmlArry.length - parseInt(1))] = {
+
+                                                                                            "Size" : Size,
+                                                                                            "Required_Flag" : Json_flag_Required_View,
+                                                                                            "GuestView" : Json_flag_guest_View,
+                                                                                            "GuestEdit"  : Json_flag_guest_Edit,
+                                                                                            "TextBox_Type" : Type,
+                                                                                            "Macro" : Macro,
+                                                                                            "Question" : $("#RadioQuestion").val()
+
+                                                                                            };
+                                        }
+                                        CommonScriptsFun();
+                                        $(".ToolCheckBox").prop("checked", false);
+                                        Type = "";
+                                        date = "";
+                          break;
+                          case "TextArea" : 
+
+                          RequiredField();
+                                if(Flag)
+                                        {
+                                            HtmlArry[ElementId] = FullRowStart +` <div class="col-sm-`+ Size +` Space"> <span name="TextArea" id="`+ ElementId +`" class="`+ RequiredStar +` test" placeholder=`+ElementId+`> `+ $("#RadioQuestion").val() +` </span><br> <textarea class="form-control `+hidefields+`" `+ viewtype +` id="TextArea`+ElementId+`" name="TextArea`+ElementId+`" `+ RequiredVar +`></textarea>  </div> ` + FullRowEnd;
+                                            
+                                            PropertyAssign.PropertyNames[ElementId] = {
+
+                                                                                            "Size" : Size,
+                                                                                            "Required_Flag" : Json_flag_Required_View,
+                                                                                            "GuestView" : Json_flag_guest_View,
+                                                                                            "GuestEdit"  : Json_flag_guest_Edit,
+                                                                                            "Macro" : Macro,
+                                                                                            "Question" : $("#RadioQuestion").val()
+
+                                                                                            };
+                                                                                            ElementId = null;
+                                       
+                                        }
+                                        else
+                                        {
+                                            HtmlArry[HtmlArry.length] = FullRowStart +` <div class="col-sm-`+ Size +` Space"> <span name="TextArea" id="`+ HtmlArry.length +`" class="`+ RequiredStar +` test" placeholder=`+HtmlArry.length+`> `+ $("#RadioQuestion").val() +` </span><br> <textarea class="form-control `+hidefields+`" `+ viewtype +` id="TextArea`+HtmlArry.length+`" name="TextArea`+HtmlArry.length+`" `+ RequiredVar +`></textarea>  </div> ` + FullRowEnd;
+                                                        
+                                                        PropertyAssign.PropertyNames[(HtmlArry.length - parseInt(1))] = {
+
+                                                                                                        "Size" : Size,
+                                                                                                        "Required_Flag" : Json_flag_Required_View,
+                                                                                                        "GuestView" : Json_flag_guest_View,
+                                                                                                        "GuestEdit"  : Json_flag_guest_Edit,
+                                                                                                        "Macro" : Macro,
+                                                                                                        "Question" : $("#RadioQuestion").val()
+
+                                                                                                        };
+                                       
+                                        }
+                                        CommonScriptsFun();
+                                        $(".ToolCheckBox").prop("checked", false);
+
+                          break;
+                          case "Text" : 
+                                        
+                                        RequiredField();
+                                        if(Flag)
+                                        {
+                                            HtmlArry[ElementId] = FullRowStart +` <div class="col-sm-`+ Size +` Space"> <span name="Text" id="`+ ElementId +`" class="`+Italic+` `+ Class +` test" placeholder=`+ElementId+`> `+ $("#RadioQuestion").val() +` </span>  </div> ` + FullRowEnd;
+                                           
+                                                 PropertyAssign.PropertyNames[ElementId] = {
+
+                                                                                                "Size" : Size,
+                                                                                                "Italic" : Italic,
+                                                                                                "Text_Type" : Class,
+                                                                                                "GuestView" : Json_flag_guest_View,
+                                                                                                "GuestEdit"  : Json_flag_guest_Edit,
+                                                                                                "Question" : $("#RadioQuestion").val()
+
+                                                                                            };
+                                                                                            ElementId = null;
+                                       
+                                       
+                                        }
+                                        else
+                                        {
+                                            HtmlArry[HtmlArry.length] = FullRowStart +` <div class="col-sm-`+ Size +` Space"> <span name="Text" id="`+ HtmlArry.length +`" class="`+Italic+` `+ Class +` test" placeholder=`+HtmlArry.length+`> `+ $("#RadioQuestion").val() +` </span>  </div> ` + FullRowEnd;
+
+                                            PropertyAssign.PropertyNames[(HtmlArry.length - parseInt(1))] = {
+
+                                                                                                "Size" : Size,
+                                                                                                "Italic" : Italic,
+                                                                                                "Text_Type" : Class,
+                                                                                                "GuestView" : Json_flag_guest_View,
+                                                                                                "GuestEdit"  : Json_flag_guest_Edit,
+                                                                                                "Question" : $("#RadioQuestion").val()
+
+                                                                                                };
+                                       
+                                        }
+                                        CommonScriptsFun();   
+                                        $(".ToolCheckBox").prop("checked", false);
+
+                          break;
+                          case "Signature" : 
+                                   
+                                   SigPrevFlag = 0;
+                                       RequiredField();
+                                       if(Flag)
+                                        {
+                                            HtmlArry[ElementId] = FullRowStart +` <div class="col-sm-`+ Size +` Space"> <span name="Signature" id="`+ ElementId +`" class="`+Italic+` test `+ RequiredStar +`" placeholder=`+ElementId+`> `+ $("#RadioQuestion").val() +` </span> <br>   <div id="Dynamic-signature`+ElementId+`"> </div> </div> ` + FullRowEnd;
+                                            ScriptArrayNumberFunc(ElementId);
+                                          //  ScriptAppendingFunc();
+                                            HtmlAppendingFunc();
+                                            AppendFlag = 1;
+                                            updatingScriptFunc(ScriptArrayNumber);
+                                           // SignatureData.SignatureArray[ScriptArrayNumber] = {"Id" : ElementId, "Required" : ReqFlag , "Therapist": FillingFlag  };
+                                          
+                                           PropertyAssign.PropertyNames[ElementId] = {
+
+                                                                        "Size" : Size,
+                                                                        "GuestView" : Json_flag_guest_View,
+                                                                        "GuestEdit"  : Json_flag_guest_Edit,
+                                                                        "Question" : $("#RadioQuestion").val()
+
+                                                                        };
+
+                                                                        ElementId = null;
+
+                                        }
+                                        else
+                                        {
+                                            HtmlArry[HtmlArry.length] = FullRowStart +` <div class="col-sm-`+ Size +` Space"> <span name="Signature" id="`+ HtmlArry.length +`" class="`+Italic+` test `+ RequiredStar +`" placeholder=`+HtmlArry.length+`> `+ $("#RadioQuestion").val() +` </span> <br>   <div id="Dynamic-signature`+HtmlArry.length+`"> </div> </div> ` + FullRowEnd;
+                                            HtmlAppendingFunc();
+                                            AppendFlag = 1;
+                                         //   SignatureData.SignatureArray[SignatureData.SignatureArray.length] = {"Id" : parseInt(HtmlArry.length) - parseInt(1), "Required" : ReqFlag , "Therapist": FillingFlag  };
+                                            ScriptAppendingFunc();
+
+                                            PropertyAssign.PropertyNames[(HtmlArry.length - parseInt(1))] = {
+
+                                                                                        "Size" : Size,
+                                                                                        "GuestView" : Json_flag_guest_View,
+                                                                                        "GuestEdit"  : Json_flag_guest_Edit,
+                                                                                        "Question" : $("#RadioQuestion").val()
+
+                                                                                           };
+                                       
+                                       
+                                        }
+                                      
+                                       
+                                        
+                                       
+                                        
+
+
+                                    
+                          break;
+                          
+                          default :
+                          alert("Please Select a Fields");
+                          break;
+
+                      }
+                    if(!AppendFlag)
+                      {
+                        HtmlAppendingFunc();
+                      }
+                    else
+                      {
+                        AppendFlag = 0;
+                      }
+                    if(SigPrevFlag)
+                      {
+                        SigPreviousFunc();
+                      }
+                      else
+                      {
+                        SigPrevFlag = 1;
+                      }
+
+                      if(FormUpdateFlag2 == 2)
+                      {
+                        FormUpdateFlag2 = 0;
+                        $(".UpdateExcistingForm").css("visibility", "visible");
+                      }
+                    
+        }
+        function HtmlAppendingFunc()
+        {
+         
+            GeneratedHtml = "";
+
+                   for(var i = 0; i< HtmlArry.length;i++)
+                      {
+                         GeneratedHtml += HtmlArry[i];
+                      }
+
+                      $("#Html").empty();
+                      $("#Html").append(GeneratedHtml);
+                      HtmlV2 = GeneratedHtml;
+
+ 
+        }
+
+        function SigPreviousFunc()
+        {
+            CustomScript = "";
+            for(var i =0; i< SignatureData.SignatureArray.length; i++)
+            {
+                CustomScript += SignatureData.SignatureArray[i].SignScript;
+            }
+           
+
+            DynamicScript = ` <`+S+` type="text/javascript">  `+ CustomScript +` resizeSignatures(); $(window).resize(function() { resizeSignatures(); });   </`+S+`>`;
+            HtmlV2 += DynamicScript;
+            $("#Html").append(DynamicScript);
+        }
+        function ScriptAppendingFunc()
+        {
+          
+           
+           let x = 1;
+            GeneratedScript = "";
+            DynamicScript = "";
+            
+           
+                if(ReqFlag)
+                  var SignReq = true;
+                else
+                  var SignReq = false;
+                   
+
+                  if((!$("#SignGuestYes").is(":checked")  && $("#Required").is(":checked")) || ($("#Required").is(":checked") && $("#GuestEdit").val() == "No"))
+                    {
+                        var SignFill = `, "webstore" : true`;
+                    }
+                    else
+                    {
+                        var SignFill = "";
+                    }
+                   let CreateWord = "createSignature('Dynamic-signature";
+
+                   CreateWord = CreateWord+(parseInt(HtmlArry.length) - parseInt(1)).toString();
+                   SignatureData.SignatureArray[SignatureData.SignatureArray.length] = {"Id" : parseInt(HtmlArry.length) - parseInt(1), "SignScript" : CreateWord +"', {'required':"+ SignReq + SignFill+"});" };
+                
+                
+
+          
+            CustomScript = "";
+            for(var i =0; i< SignatureData.SignatureArray.length; i++)
+            {
+                CustomScript += SignatureData.SignatureArray[i].SignScript;
+            }
+           
+
+            DynamicScript = ` <`+S+` type="text/javascript">  `+ CustomScript +` resizeSignatures(); $(window).resize(function() { resizeSignatures(); });   </`+S+`>`;
+            
+            $("#Html").append(DynamicScript);
+            CommonScriptsFun();   
+            $(".ToolCheckBox").prop("checked", false);
+            HtmlV2 += DynamicScript;
+            ReqFlag = 0;
+            FillingFlag = 0;
+            ScriptArrayNumber = 0;
+        }
+
+
+        function updatingScriptFunc(ScriptIndex)
+        {
+          
+             GeneratedScript = "";
+             DynamicScript = "";
+             if(ReqFlag)
+                  var SignReq = true;
+                else
+                  var SignReq = false;
+
+                  if((!$("#SignGuestYes").is(":checked")  && $("#Required").is(":checked")) || ($("#Required").is(":checked") && $("#GuestEdit").val() == "No"))
+                    {
+                        var SignFill = `, "webstore" : true`;
+                    }
+                    else
+                    {
+                        var SignFill = "";
+                    }
+
+                    SignatureData.SignatureArray[ScriptIndex] = {"Id" : ElementId, "SignScript" : 'createSignature("Dynamic-signature'+ ElementId +'", {"required":'+ SignReq + SignFill+'});' };
+                    CustomScript = "";
+                    for(var i =0; i< SignatureData.SignatureArray.length; i++)
+                    {
+                        CustomScript += SignatureData.SignatureArray[i].SignScript;
+                    }
+                
+
+                    DynamicScript = ` <`+S+` type="text/javascript"> $(document).ready(function() { `+ CustomScript +` resizeSignatures(); $(window).resize(function() { resizeSignatures(); }); });  </`+S+`>`;
+                   
+                    $("#Html").append(DynamicScript);
+                    CommonScriptsFun();   
+                    $(".ToolCheckBox").prop("checked", false);
+                    HtmlV2 += DynamicScript;
+                    ReqFlag = 0;
+                    FillingFlag = 0;
+                    ScriptArrayNumber = 0;
+        }
+
+        function ScriptArrayNumberFunc(HtmlParam)
+        {
+            ScriptArrayNumber = 0;
+            for(var s = 0; s< SignatureData.SignatureArray.length; s++)
+            {
+                if(SignatureData.SignatureArray[s].Id == HtmlParam)
+                ScriptArrayNumber = s;
+            }
+        }
+      
+        function GridFunc()
+        {
+            if($("#RowSize").val() == "Full")
+            {
+                ViewtypeBlockFunc();
+                Size = 12;
+            }
+            else if($("#RowSize").val() == "Half")
+            {
+                ViewtypeBlockFunc();
+                Size = 6;
+            }
+        }
+        function ViewtypeBlockFunc()
+        {
+            Json_flag_guest_View = false;
+            Json_flag_guest_Edit = false;
+            
+            if($("#GuestView").val() == "No")
+                {
+
+                  FullRowStart = `<div class="hidefields" viewtype="hidefields"> `;
+                  FullRowEnd = ` </div> `;
+                  hidefields = `hidefields`;
+                  viewtype = `viewtype = "hidefields"`;
+                  Json_flag_guest_View = false;
+                }
+                else if($("#GuestView").val() == "Yes")
+                {
+                    if($("#GuestEdit").val() == "No")
+                    {
+                        FullRowStart = `<div class="viewfields" viewtype="viewfields"> `;
+                        FullRowEnd = ` </div> `;
+                        hidefields = `viewfields`;
+                        viewtype = `viewtype = "viewfields"`;
+                        Json_flag_guest_Edit = false;
+                    }
+                    else
+                    {
+                        FullRowStart = `<div class=""> `;
+                        FullRowEnd = ` </div> `;
+                        hidefields = ``;
+                        viewtype = ``;
+                        Json_flag_guest_Edit = true;
+                    }
+                    Json_flag_guest_View = true;
+                }
+        }
+ 
+        function ValidationFunc(ParamValidateElement)
+        {
+     
+            Flag1 = 0;
+            Flag2 = 0;
+            $("."+ParamValidateElement).each(function(){
+            Flag1 = ++Flag1;
+            if($(this).val().trim())
+            {
+                Flag2 = ++Flag2;
+            }
+            });
+            $(".CommonFieldV2").each(function()
+            {
+                Flag1 = ++Flag1;
+                    if($(this).val().trim());
+                    {
+                        if($(this).val() != "")
+                        { 
+                            Flag2 = ++Flag2;
+                        }
+                    }
+                    
+            });
+            alert("");debugger;
+            if((Flag1 - ValidationFlag) == Flag2)
+            {
+                $("#Generate").css("opacity",1);
+                $("#Generate").css('pointer-events','auto');
+                $("#Update").css("opacity",1);
+                $("#Update").css('pointer-events','auto');
+            }
+            else
+            {
+                $("#Generate").css("opacity",0.5);
+                $("#Generate").css('pointer-events','none');
+                $("#Update").css("opacity",0.5);
+                $("#Update").css('pointer-events','none');
+            }
+
+            
+        }
+       function RequiredFields(RequiredElements)
+       {   
+
+           CommonScriptsFun(1);
+           ValidationFlag = 0;
+           Italic = "";
+           $(".RowHead").css("display","none");
+           if($("#FieldType").val().trim())
+           {
+            $("."+RequiredElements).css("display", "block");
+            ElementName = "";
+           }
+           else
+           {
+            $("."+RequiredElements).css("display", "none");
+           }
+         
+           $(".CommonField").css("display", "block");
+           
+           if(RequiredElements == "TextBox" || RequiredElements == "TextArea")
+           {
+            TextBoxFieldsFunc();
+            if(RequiredElements == "TextBox")
+            $(".InputType").css("display","block");
+           }
+           if(RequiredElements == "Signature")
+           {
+                SignatureField();
+           }
+           if($(".ToolCheckBox").is(":checked"))
+           $(".ToolCheckBox").prop("checked", false);
+             
+            if(RequiredElements == "CheckBoxV1")
+                {
+                    $("#CheckBoxOptionBlock").css("display", "block");
+                }
+       }
+       function CommonScriptsFun(ReqParam)
+       {
+                            $(".RowHead").each(function(){
+                                    $(this).css("display","none");
+                                 });
+                             $("#Generate").css("opacity",0.5);
+                             $("#Generate").css('pointer-events','none');  
+                             $(".Tool").val(""); 
+                             if(ReqParam != 1)
+                             {
+                                $(".ToolV2").val(""); 
+                             }
+       }
+       function DeleteElement()
+       {
+            HtmlArry[ElementId] = "";
+            HtmlAppendingFunc();
+            DeleteScript();
+       }
+
+       function DeleteScript()
+       {
+          for(var d = 0; d<SignatureData.SignatureArray.length; d++)
+          {
+              if(SignatureData.SignatureArray[d].Id == ElementId)
+              {
+                SignatureData.SignatureArray.splice(d,1);
+
+              }
+          }
+       }
+       function EditElement()
+       {
+           var tempRF = ElementName;
+        alert(""); debugger;
+           $(".GenerateDiv").css("display", "none");
+           $(".UpdateDiv").css("display", "block");
+           $("#Update").css('pointer-events','none').css("opacity",0.5);
+           $("#FieldType").val(ElementName);
+           RequiredFields(ElementName);
+          
+           
+           if(FormUpdateFlag == 1)
+           {
+              FormUpdateFlag2 = 2;
+              FormUpdateFlag = 0;
+           }
+           
+           DataAssaignFunc(tempRF, Element_ID);
+
+       }
+
+
+       function DataAssaignFunc(Name, Id)
+       {
+
+        
+            alert(""); debugger;
+             if(PropertyAssign.PropertyNames[Id].GuestView)
+             {
+                 $("#GuestView").val('Yes');
+             }
+             else
+             {
+             $("#GuestView").val('No');
+             }
+         
+
+            if(Name != "Logo")
+            {
+                if(PropertyAssign.PropertyNames[Id].GuestEdit)
+                {
+                    $("#GuestEdit").val('Yes');
+                }
+                else
+                {
+                    $("#GuestEdit").val('No');
+                }
+
+            }
+
+
+                if(PropertyAssign.PropertyNames[Id].Size == 6)
+                {
+                  $("#RowSize").val("Half");
+                }
+                else { 
+                        if(PropertyAssign.PropertyNames[Id].Size == 12)
+                        {
+                          $("#RowSize").val("Full");
+                        }
+                      }
+
+
+
+               switch (Name)
+                      {
+                          case "Logo" : 
+                          
+                            $("#Position").val(PropertyAssign.PropertyNames[Id].Position);
+                            $("#Logo").val(PropertyAssign.PropertyNames[Id].Logo);
+                                                  
+                          break;
+
+                          case "RadioButton" : 
+
+                            if(PropertyAssign.PropertyNames[Id].Radio_Option_type == true)
+                            {
+                                $("#Options").val("Custom");
+                                $(".Custom").css("display", "block");
+                                $("#FirstOption").val(PropertyAssign.PropertyNames[Id].Custom_OptionOne);
+                                $("#SecondOption").val(PropertyAssign.PropertyNames[Id].Custom_SecondOption);
+                            }
+                            else
+                            {
+                                $("#Options").val("Default");
+                            }
+                                $("#RadioQuestion").val(PropertyAssign.PropertyNames[Id].Question);
+                                if(PropertyAssign.PropertyNames[Id].Required_Flag)
+                                {
+                                    $("#Required").prop("checked", true);
+                                }
+
+                                
+                          break;
+
+                          case "CheckBoxV1" : 
+                                 
+                                  $("#CheckBoxOptionBlock").empty;
+                                  $("#RadioQuestion").val(PropertyAssign.PropertyNames[Id].Question);
+                                  $("#CheckBoxOptionBlock").append(PropertyAssign.PropertyNames[Id].Check_Box_Options);
+                                  $("#Count").val(CB_count);
+
+
+                          break;
+                          case "TextBox" : 
+
+                                $("#RadioQuestion").val(PropertyAssign.PropertyNames[Id].Question);
+                              
+                                if(PropertyAssign.PropertyNames[Id].Required_Flag)
+                                {
+                                    $("#Required").prop("checked", true);
+                                }
+
+                                $("#Macro").val(PropertyAssign.PropertyNames[Id].Macro);
+                                 
+                                switch(PropertyAssign.PropertyNames[Id].TextBox_Type)
+                                {
+                                    case `type="text"` :
+                                              $("#inputtype").val("text");
+                                    break;
+
+                                    case `type="number" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)"` :
+                                                 $("#inputtype").val("number");
+                                    break;
+                                  
+                                    case `type="time"` :
+                                                $("#inputtype").val("time");
+                                    break;
+                                    
+                                    default :
+                                                $("#inputtype").val("date");
+                                    break;
+                                }
+
+                              
+                          break;
+                          case "TextArea" : 
+
+                                $("#RadioQuestion").val(PropertyAssign.PropertyNames[Id].Question);
+                              
+                                if(PropertyAssign.PropertyNames[Id].Required_Flag)
+                                {
+                                    $("#Required").prop("checked", true);
+                                }
+
+                                $("#Macro").val(PropertyAssign.PropertyNames[Id].Macro);
+                       
+
+                          break;
+                          case "Text" : 
+
+                                    $("#RadioQuestion").val(PropertyAssign.PropertyNames[Id].Question);
+                                    
+                                    if(PropertyAssign.PropertyNames[Id].Italic == "Italic")
+                                     {
+                                          $("#ItalicCheckBox").prop("checked", true);
+                                     }
+                              
+                                    switch(PropertyAssign.PropertyNames[Id].Text_Type)
+                                        {
+                                        case "Title" :
+                                                   $("#TextType").val("Title");
+                                        break;
+
+                                        case "Heading" :
+                                                  $("#TextType").val("Heading");
+                                        break;
+                                        case "SubHeading" :
+                                                  $("#TextType").val("SubHeading");
+                                        break;
+                                        case "label" :
+                                                   $("#TextType").val("label");
+                                        break;
+                                        case "Paragraph" :
+                                                   $("#TextType").val("Paragraph");
+                                        break;
+                                        }
+                              
+                          break;
+                          case "Signature" : 
+                              
+                              $("#RadioQuestion").val(PropertyAssign.PropertyNames[Id].Question);
+                              
+                              if(PropertyAssign.PropertyNames[Id].Required_Flag)
+                              {
+                                  $("#Required").prop("checked", true);
+                              }
+
+                                    
+                          break;
+                          
+                          default :
+                          alert("Please Select a Fields");
+                          break;
+
+                      }
+
+                      GuestEdit('GuestView');
+
+       }
+
+
+
+       function UpdateElement()
+       {
+           DynamicElementsGeneratingFunc(1);
+           $(".GenerateDiv").css("display", "block");
+           $(".UpdateDiv").css("display", "none");
+       }   
+       function RadioType(TypeParam1, ReqParam1)
+        {
+           
+          if(TypeParam1 == ReqParam1)
+            {
+                $("."+ReqParam1).css("display","block");
+
+                ValidationFlag = 0;
+                if($("#GuestView").val() == "No")
+                ValidationFlag = 1;
+            }
+            else
+            {
+                $("."+ReqParam1).css("display","none");
+                $("#FirstOption").val("");
+                $("#SecondOption").val("");
+                ValidationFlag = parseInt(ValidationFlag) + parseInt(2);
+            }
+        }
+        function RequiredField()
+        {
+            Macro = "";
+                            RequiredStar = "";
+                            RequiredVar = "";
+                            ReqFlag = 0;
+                            Json_flag_Required_View = false;
+                            if($("#Required").is(":checked"))
+                            {
+                                RequiredStar = "CustomID";
+                                RequiredVar = "required";
+                                ReqFlag = 1;
+                                Json_flag_Required_View = true;
+                            }
+                            if($("#Macro").val().trim())
+                                Macro = $("#Macro").val();
+        }
+        function GuestEdit(GuestParam1)
+        {
+         
+          if($("#"+GuestParam1).val() == "Yes" && $("#FieldType").val() != "Text" && $("#FieldType").val() != "Logo")
+            {
+                $("."+GuestParam1).css("display","block");
+                ValidationFlag = 0;
+               
+                if($("#Options").val() == "Default")
+                {
+                    ValidationFlag = parseInt(ValidationFlag) + parseInt(2);
+                }
+            }
+            else
+            {
+                
+                $("."+GuestParam1).css("display","none").val("");
+                ValidationFlag = parseInt(ValidationFlag) + parseInt(1);
+            }
+        }
+        function CheckBoxOptionGenerateFun(CountParam)
+        {
+            $("#CheckBoxOptionBlock").empty();
+            TextBox = "";
+                 for(var i=1; i <= CountParam; i++)
+                 {
+                    Temp =  ` <div class="col-sm-2 CheckBoxV1">
+                                             <label> Option `+ i +` </label><br>
+                                             <input type="text" onkeyup="ValidationFunc('CheckBoxV2');" class="form-control CheckBoxV2" id="Option`+i+`" name="Option`+i+`">
+                                  </div> `;
+
+                    TextBox = TextBox + Temp;
+                 }
+                 $("#CheckBoxOptionBlock").css("display", "block");
+                 $("#CheckBoxOptionBlock").append(TextBox);
+                 CheckBoxCount = CountParam;
+        }
+
+        function CheckBoxFunc(CountParamV1)
+        {       temp = "";
+                TextBox = "";
+            var Temp_Val = "";
+                CheckBoxString = "";        
+                for(var i=1; i<=CountParamV1; i++)
+                {
+                    if(ElementId)
+                    {
+                        temp = `<input type="checkbox" class="checkbox-inline `+ hidefields +`" `+ viewtype +` id="CheckYes`+ ElementId + i+`" name="Check`+ ElementId + i+`" value="Check`+ ElementId + i+`"> &nbsp;`+$("#Option"+i).val();
+
+                        Temp_Val =  ` <div class="col-sm-2 CheckBoxV1">
+                                             <label> Option `+ i +` </label><br>
+                                             <input type="text" onkeyup="ValidationFunc('CheckBoxV2');" class="form-control CheckBoxV2" value="`+ $("#Option"+i).val() +`" id="Option`+i+`" name="Option`+i+`">
+                                  </div> `;
+
+                 
+                  
+                    }
+                    else
+                    {
+                        temp = `<input type="checkbox" class="checkbox-inline `+ hidefields +`" `+ viewtype +` id="CheckYes`+ HtmlArry.length + i+`" name="Check`+ HtmlArry.length + i+`" value="Check`+ HtmlArry.length + i+`"> &nbsp;`+$("#Option"+i).val();
+
+                        Temp_Val =  ` <div class="col-sm-2 CheckBoxV1">
+                                             <label> Option `+ i +` </label><br>
+                                             <input type="text" onkeyup="ValidationFunc('CheckBoxV2');" class="form-control CheckBoxV2" value="`+ $("#Option"+i).val() +`" id="Option`+i+`" name="Option`+i+`">
+                                  </div> `;
+                    }
+
+                    TextBox = TextBox + Temp_Val;
+
+                    CheckBoxString = CheckBoxString + temp;
+                }
+        }
+         function TextBoxFieldsFunc()
+            {
+                $(".RequiredButn").css("display", "block");
+                $(".QuestionBlock").css("display", "block");
+                $(".Macro").css("display", "block");
+               
+            }
+
+            
+        function TextTypeFields(TextTypeParam)
+        {
+          switch(TextTypeParam)
+                {
+                case "Title" :
+                            Class = "Title";
+                break;
+
+                case "Heading" :
+                            Class = "Heading";
+                break;
+                case "SubHeading" :
+                            Class = "SubHeading";
+                break;
+                case "label" :
+                            Class = "label";
+                break;
+                case "Paragraph" :
+                            Class = "Paragraph";
+                break;
+                }
+
+        }
+
+        function InputType(TypeParam)
+        {
+            Type = "";
+            switch(TypeParam)
+                {
+                    case "text" :
+                                Type = `type="text"`;
+                    break;
+
+                    case "number" :
+                                Type = `type="number" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)"`;
+                    break;
+                    case "date" :
+                                Type = ``;
+                                date = "date";
+                    break;
+                    case "time" :
+                                Type = `type="time"`;
+                    break;
+                }
+        }
+
+        function SignatureField()
+        {
+            $(".RequiredButn").css("display", "block");
+            $(".QuestionBlock").css("display", "block");
+        }
+
+        function download(filename, text) {
+            var element = document.createElement('a');
+            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+            element.setAttribute('download', filename);
+
+            element.style.display = 'none';
+            document.body.appendChild(element);
+
+            element.click();
+
+            document.body.removeChild(element);
+        }
+
+        function GenerateCode()
+        {
+            InitialiseBody();
+        }
+
+        function InitialiseBody()
+         {
+            BodyV2 =  `<!Doctype html><html lang="en"><head><meta charset="utf-8"><title> ` + TitleVar + `</title><link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/bootstrap.min.css"><link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/jquery-steps.css"><link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/jquery-ui.min.css"> <link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/signature-pad.css"><link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/form.css"><link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/font-awesome.css"> <link rel="stylesheet" href="https://cnt01.zenoti.com/forms/V1/common/css/annotations.css">  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">   <`+S+` src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></`+S+`> <`+S+` src="https://{BaseUrl}/jQueryUI.1.12.1.js"></`+S+`> <`+S+` src="https://{BaseUrl}/Bootstrapv3.3.7.js"></`+S+`> <`+S+` src="https://{BaseUrl}/JQuery.validate1.17.0.js"></`+S+`> <`+S+` src="https://{BaseUrl}/JQuery-AdditionalMethods1.16.0.js"></`+S+`> <`+S+` src="https://{BaseUrl}/signature_pad.js"></`+S+`> <`+S+` src="https://{BaseUrl}/jquery.steps.min.js"></`+S+`> <`+S+` src="https://{BaseUrl}/Annotation.js"></`+S+`> <`+S+` src="https://{BaseUrl}/Form.js"></`+S+`> <`+S+` type="text/javascript"> window.$Annotation = $; </`+S+`> <style type="text/css"> body{ font-family:sans-serif !important; font-size: 14px !important; } .h1 { border-style: solid; border-color:#F1F1F1; border-width: 20px; padding:10px; } .h2 { border-style: solid; border-color:#F1F1F1; padding-left: 20px; padding-right: 20px; padding-bottom: 20px; } .head1{ font-size: 20px; font-family: 'Work Sans', sans-serif; } .head2{ font-size: 18px; padding: 4px 0px 0px 0px; font-family: 'Work Sans', sans-serif; } .head3{ font-size: 14px; padding: 0px; font-family: sans-serif !important; } .para{ font-size:16px; font-weight:bold; font-family: sans-serif !important; } .para1{ font-size:15px; font-weight:400; font-family: sans-serif !important; } li{ padding: 5px; } .btn-file input[type=file] { position: absolute; top: 0; right: 0; min-width: 100%; min-height: 100%; font-size: 100px; text-align: right; filter: alpha(opacity=0); opacity: 0; outline: none; background: white; cursor: inherit; display: block; } .box-heading { border: 1px solid #F1F1F1; padding: 10px; margin-bottom: 20px !important; background: #F1F1F1; } .m-signature-pad--footer .button.clear { left: 0 !important; width: 100%; padding: 1px; font-size: 15px; text-transform: uppercase; text-align: center; } #form .col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12 { text-align:left !Important; font-size: 15px; font-family: 'Work Sans', sans-serif; } b, strong { font-weight: 700; word-break: normal; } input[type="text"] { font-weight:100; } li,b,label,span{ line-height: 1.5; } label[class*='CustomID']::after { content: "*"; color: red; font-weight: bolder;} span[class*='CustomID']::after { content: "*"; color: red; font-weight: bolder;} .col-sm-12 { line-height: 2 !important; } table, td, th { border: 1px solid #ddd; text-align: left; } table { border-collapse: collapse; width: 100%; } th, td { padding: 15px; } .image-wrapper { display: flex; flex-flow: row wrap; } .input-group-IMG { width: 100% !important; height: 100% !important; margin: 5% 0 5% 0; margin-top: 10px !Important; } .imagename { position: absolute; width: 68%; right: 0px; } .input-group-btn { width: 10%; } .input-group-IP { width: 90%; } .delete-IMG { display:none; position: absolute; right: 2.0%; width: 5%; padding-left: 1%; } .mfull a{ top:42px !important; overflow:hidden !important; } @media only screen and (max-width: 924px){ .mfull{ float: none !Important; width: 100% !important; max-width: 330px; margin-top: 5%; } } .CustomFC{ height: 34px; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; color: #555; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius: 4px; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075); box-shadow: inset 0 1px 1px rgba(0,0,0,.075); } .Space{margin-top:2.5%;}.LogoSpace{margin-top:2%;margin-bottom:2%;}.Title{Font-Size:24px!important;Font-Weight:bold!important;}.Heading{Font-Size:20px!important;Font-Weight:bold!important;}.SubHeading{Font-Size:18px!important;Font-Weight:bold!important;}.label{Font-Size:16px!important;Font-Weight:bold!important;color:black!important;}.Paragraph{Font-Size:15px!important;Font-Weight:100!important;}.Italic{font-style:italic!important;}</style> <`+S+` type="text/javascript"> $(document).ready(function() { resizeSignatures(); $(window).resize(function() { resizeSignatures(); }); $('#form').focusout(function (e) { var reqAttr = $(e.target).attr('required'); errorMessage(e, reqAttr); }); $("input[type='radio']").change(function(){ var mv = $(this).attr('name'); $('#'+mv+'-error').css('display','none'); $("input[name='"+mv+"']").css('border','1px solid #cccccc'); $('#errorMessage_'+mv).css('display','none'); }); $('input[name^="date"]').datepicker({ dateFormat: "mm/dd/yy", changeMonth: true, changeYear: true, yearRange: "-100:+0" }); $('input[name^="date"]').change(function (e) { var reqAttr = $(e.target).attr('required'); errorMessage(e, reqAttr); }); }); </`+S+`> </head> <body> <form id="form" class='sigPad' action=""> <input type="submit" class="btn btn-default" style="display: none; position: absolute; left:750px;top:7px;"> <div class="panel body-innerwrapper" style="margin: 0%; padding: 1%"> <div class=" small"> <div class="h1"> <div class="h2"> <div>&nbsp;</div> <div class="col-sm-12"> `+ HtmlV2 +` </div> <div class="col-sm-12"></div></div> <div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div>    </div> </div> </div> </form> </body> </html>`;
+         }
+
+
+
+         
+            function DownloadFunc()
+            {
+              
+                if($("#FormName").val())
+                {
+                    GenerateCode(); 
+                    var text = BodyV2;
+                    var filename = $("#FormName").val() +'.html';
+                
+                    download(filename, text);
+                }
+                else
+                {
+                    alert("Please Enter Form Name");
+                }
+            }
+
+            function PostFormData()
+            {
+              alert(""); debugger;
+                for(var i = 0; i < HtmlArry.length; i++)
+                    {
+                        FormDataObject.FormDataArray[FormDataObject.FormDataArray.length] = {"Html" : HtmlArry[i] };
+                        FormDataObject.JsonDataArray[parseInt(FormDataObject.FormDataArray.length) - parseInt(1)] = {"JsonData" : PropertyAssign.PropertyNames[i]};
+
+                    }
+                for(var i = 0; i < SignatureData.SignatureArray.length; i++)
+                    {
+                        FormDataObject.FormDataArray[FormDataObject.FormDataArray.length] = {"Script" : SignatureData.SignatureArray[i] };
+                    }
+
+                  
+            }
+
+            function AuthorizedFunc(SignInData)
+            {
+               
+                if(SignInData.length == 1 || localStorage.getItem("UserName") != null)
+                {
+                    if($("#Password").val() == SignInData[0].UserPassword || localStorage.getItem("UserName") != null)
+                    {
+
+                        $(".ValidUser").css("display", "block");
+                        $(".UnAuth").css("display", "block");
+                        $(".Auth").css("display","none");
+                        $(".FormsDD").css("visibility", "visible");
+                        $(".ValidUser label").html(SignInData[0].UserName);
+                        if(localStorage.length)
+                        {
+                           $(".ValidUser label").html(localStorage.getItem("UserName"));
+                           OnLogin(localStorage.getItem("UserName"));
+                        }
+                        else
+                        {
+                        localStorage.setItem("UserName", SignInData[0].UserName);
+                        OnLogin(localStorage.getItem("UserName"));
+                        }
+                        $(".Clear").val("");
+                    
+                    }
+                    else if($("#Password").val())
+                    {
+                        alert("Please enter valid creds");
+                        $(".Clear").val("");
+                    }
+                }
+                else
+                {
+                    alert("Guest Doesn't exist");
+                    $(".Clear").val("");
+                }
+            }
+            function LogOutFunc()
+            {
+                localStorage.clear();
+                $(".ValidUser").css("display", "none");
+                $(".UnAuth").css("display", "none");
+                $(".FormsDD").css("visibility", "hidden");
+                $('select.FormsDD').children('option:not(:first)').remove();
+                $(".Auth").css("display","block");
+                $(".ValidUser label").html("");
+            }
+
+            function CreatedFunc()
+            {
+                  
+                localStorage.setItem("UserName", $("#UserName").val());
+                $(".ValidUser").css("display", "block");
+                $(".UnAuth").css("display", "block");
+                $(".FormsDD").css("visibility", "visible");
+                $(".Auth").css("display","none");
+                $(".ValidUser label").html(localStorage.getItem("UserName"));
+                $(".Clear").val("");
+            }
+
+            function GuestCreationFunc()
+            {
+             
+                if(!$("#UserName").val() || !$("#Password").val())
+                    {
+                        alert("Please enter Username and pasword");
+                    }
+                    else
+                    { 
+                        
+                    var Guestdata = { "ID": null, "UserName": $("#UserName").val(), "UserFirstName": "", "Salary": "", "USerLastName" : "", "UserPassword" : $("#Password").val(), "UserMobileNo" : "", "UserDBO" : "", "UserEmailAddress" : "", "UserGender" : "", "UserAddress" : ""};
+
+                        $.ajax ({
+ 
+                            type        : "POST",  
+                            url         : "http://localhost:59383/api/values/GuestInfo/",
+                            data        :  Guestdata,  
+                            async       :  false,
+                            headers     : {
+                                                'Access-Control-Allow-Origin': '*',
+                                          },
+                            statusCode  : {
+                                                400:function() { console.log("400"); },
+                                                201:function() { console.log("201"); },
+                                                200:function() { console.log("200"); }
+                                          },
+                            success     : function(data, status)
+                                          {
+                                                console.log(status);
+                                                console.log(data);
+                                                alert("Guest created Succesfully");
+                                                CreatedFunc();
+
+                                          },
+                            error       : function(status)
+                                          {
+                                                console.log(status);
+                                          }
+                        
+                    });
+                  
+                  }
+            }
+
+            function OnCheckDuplicateForm()
+            {
+
+                if($("#FormName").val())
+                {
+                    if(localStorage.getItem("UserName"))
+                    {
+                    
+                            $.ajax ({
+
+                                    type        : "GET",  
+                                    dataType    : "json", 
+                                    url         : "http://localhost:59383/api/values/FormDuplicate/"+localStorage.getItem("UserName")+"/"+$("#FormName").val().trim().replace(" ","_"),
+                                    async       : false,
+                                    contentType : "application/json",
+                                    headers     : {
+                                                        'Access-Control-Allow-Origin': '*',
+                                                  },
+                                    statusCode  : {
+                                                        400:function() { console.log("400"); },
+                                                        201:function() { console.log("201"); },
+                                                        200:function() { console.log("200"); }
+                                                  },
+                                    success     : function(data, status)
+                                                  {
+                                                        console.log(status);
+                                                        console.log(data);
+                                                        if(data.length > 0)
+                                                        {
+                                                            alert("There is a form already created with this name, try again with other name")
+                                                        }
+                                                        else
+                                                        {
+                                                            OnSave();
+                                                        }
+                                                   },
+                                    error       : function(status)
+                                                  {
+                                                        alert(status);
+                                                  }
+
+                                    });
+
+                    }
+                    else
+                        {
+                                    alert("Please Sign In to save the form in your account");
+                        }
+                }
+                else
+                {
+                    alert("Please Enter the Form Name");
+                }
+
+
+
+               
+            }
+
+            function OnSave()
+            {
+                
+                if($("#FormName").val())
+                {
+                    if(localStorage.getItem("UserName"))
+                    {
+                       
+                        PostFormData();
+                        if(HtmlV2 != "")
+                        {
+
+                        var Date1 = new Date();
+                        Date1 = Date1.toLocaleString();
+                     
+                        var GuestFormdata = { "UserName": localStorage.getItem("UserName"), "GuestFormData": JSON.stringify(FormDataObject), "FormName": $("#FormName").val().trim().replace(" ","_"), "CreationDate" : Date1, "UpdatedDate" : Date1};
+
+                        $.ajax ({
+ 
+                            type        : "POST",  
+                            url         : "http://localhost:59383/api/values/PostForm/",
+                            data        :  GuestFormdata,  
+                            async       :  false,
+                            headers     : {
+                                                'Access-Control-Allow-Origin': '*',
+                                          },
+                            statusCode  : {
+                                                400:function() { console.log("400"); },
+                                                404:function() { console.log("404"); },
+                                                201:function() { console.log("201"); },
+                                                200:function() { console.log("200"); }
+                                          },
+                            success     : function(data, status)
+                                          {
+                                                console.log(status);
+                                                console.log(data);
+                                                alert("Guest Form posted Succesfully");
+                                              //  CreatedFunc();
+
+                                          },
+                            error       : function(status)
+                                          {
+                                                console.log(status);
+                                                alert("error");
+                                          }
+
+                            });
+                        }
+                        else
+                        {
+                            alert("Please create a fields to save the form");
+                        }
+                    }
+                    else
+                    {
+                        alert("Please Sign In to save the form in your account");
+                    }
+
+                }
+                else
+                {
+                    alert("Please Enter the Form Name");
+                }
+            }
+
+
+
+            function OnLogin(GuestName)
+            {
+                $.ajax ({
+ 
+                    type        : "GET",  
+                    dataType    : "json", 
+                    url         : "http://localhost:59383/api/values/GuestFormInfo/"+GuestName,
+                    async       : false,
+                    contentType : "application/json",
+                    headers     : {
+                                        'Access-Control-Allow-Origin': '*',
+                                  },
+                    statusCode  : {
+                                        400:function() { console.log("400"); },
+                                        201:function() { console.log("201"); },
+                                        200:function() { console.log("200"); }
+                                  },
+                    success     : function(data, status)
+                                {
+                                        console.log(status);
+                                        console.log(data);
+                                        AppendDD(data);
+
+                                },
+                    error       : function(status)
+                                {
+                                        alert(status);
+                                }
+
+                    });
+            }
+           
+            function AppendDD(DataRecords) 
+            {
+               
+                for(var R = 0; R< DataRecords.length; R++)
+                {
+                    var newStateVal = DataRecords[R].FormName;
+                    $("#PreviousFormsList").append("<option value="+ DataRecords[R].FormName +">"+ DataRecords[R].FormName.replace("_", " ") +"</option>");
+                }
+            }
+
+            function FormOpenFunc(FormNameParam)
+            {
+                alert(FormNameParam);
+                if(FormNameParam == "")
+                    {
+                        alert("no form with this name");
+                    }
+            else
+                    {
+                            
+                                  $.ajax ({
+                                    type        : "GET",  
+                                    dataType    : "json", 
+                                    url         : "http://localhost:59383/api/values/GuestFormCode/"+FormNameParam,
+                                    async       : false,
+                                    contentType : "application/json",
+                                    headers     : {
+                                                        'Access-Control-Allow-Origin': '*',
+                                                  },
+                                    statusCode  : {
+                                                        400:function() { console.log("400"); },
+                                                        201:function() { console.log("201"); },
+                                                        200:function() { console.log("200"); }
+                                                  },
+                                    success     : function(data, status)
+                                                  {
+                                                        console.log(status);
+                                                        console.log(data);
+                                                        RenderingFunc(data);
+                                                        
+                                                       /* SaveAsNewForm();*/
+                                                        FormUpdateFlag = 1;
+
+                                                  },
+                                    error       : function(status)
+                                                  {
+                                                        alert(status);
+                                                  }
+
+                                    });
+                    }
+            }
+
+            function RenderingFunc(FormDataObject1)
+            {
+                alert("from"); debugger;
+                var j = 0;
+                HtmlArry = [];
+                SignatureData.SignatureArray = [];
+                PropertyAssign.PropertyNames = [];
+
+                var v = JSON.parse(FormDataObject1[0].GuestFormData);
+                for(var i = 0; i< v.FormDataArray.length; i++)
+                {
+                    
+                    if(v.FormDataArray[i].Html != undefined)
+                    {
+                        HtmlArry[i] = v.FormDataArray[i].Html;
+                        PropertyAssign.PropertyNames[i] = v.JsonDataArray[i].JsonData;
+                    }
+                     
+                    if(v.FormDataArray[i].Script != undefined)
+                    {
+                        SignatureData.SignatureArray[j] = v.FormDataArray[i].Script;
+                        ++j;
+                    } 
+
+                }
+                HtmlAppendingFunc();
+                SigPreviousFunc();
+                $("#FormName").val($("#PreviousFormsList").val());
+            }
+
+            
+
+
+            function UpdateExcistingForm()
+            {
+
+                 if($("#FormName").val())
+                {
+                    if(localStorage.getItem("UserName"))
+                    {
+                        PostFormData();
+
+                        var Date1 = new Date();
+                        Date1 = Date1.toLocaleString();
+                     
+                        var GuestFormdata = { "UserName": localStorage.getItem("UserName"), "GuestFormData": JSON.stringify(FormDataObject), "FormName": $("#FormName").val().trim().replace(" ","_"), "CreationDate" : Date1, "UpdatedDate" : Date1};
+
+                        $.ajax ({
+ 
+                            type        : "PUT",  
+                            url         : "http://localhost:59383/api/values/UpdateGuestFormCode/",
+                            data        :  GuestFormdata,  
+                            async       :  false,
+                            headers     : {
+                                                'Access-Control-Allow-Origin': '*',
+                                          },
+                            statusCode  : {
+                                                400:function() { console.log("400"); },
+                                                404:function() { console.log("404"); },
+                                                201:function() { console.log("201"); },
+                                                200:function() { console.log("200"); }
+                                          },
+                            success     : function(data, status)
+                                          {
+                                                console.log(status);
+                                                console.log(data);
+                                                alert("Guest Form Updated Succesfully");
+                                              $(".UpdateExcistingForm").css("visibility", "hidden");
+                                          },
+                            error       : function(status)
+                                          {
+                                                console.log(status);
+                                                alert("error");
+                                          }
+
+                            });
+                    }
+                    else
+                    {
+                        alert("Please Sign In to save the form in your account");
+                    }
+
+                }
+                else
+                {
+                    alert("Please Enter the Form Name");
+                }
+
+
+            }
+
+        function DuplicateIdentificationFunc()
+        {
+            alert("");
+        }
+
+
+            
+    </script>  
+</head>
+<body>
+    <!--- header start---->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><h1><B style="line-height: 0px !important;">FORMS TOOL</B></h1></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+             
+                  
+              <li class="nav-item FormsDD" style="visibility: hidden;">
+                <div class="dropdown">
+                   <select style="width: 200px;" onchange="FormOpenFunc(this.value)" class="form-control FormsDD" id="PreviousFormsList" name="PreviousFormsList">
+                       <option value="">Select previous Form</option>
+
+                   </select>
+               </div>
+              </li>
+
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select Form Category
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" routerLink="Products/MovieBooks">Service Form</a>
+                    <a class="dropdown-item" routerLink="Products/StoryBooks">Membership Form</a>
+                    <a class="dropdown-item" routerLink="Products/StoryBooks">Guest Form</a>
+                    <a class="dropdown-item" routerLink="Products/StoryBooks">Tag Form</a>
+                    <a class="dropdown-item" routerLink="Products/StoryBooks">Package Form</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item ValidUser" style="display: none;">
+                <label>  </label>
+              </li>
+              <li class="nav-item Auth">
+                <input type="text" class="form-control Clear" id="UserName" name="UserName" placeholder="Username">
+              </li>
+
+              <li class="nav-item Auth">
+                <input type="password" class="form-control Clear" id="Password" name="Password" placeholder="Password">
+              </li>
+              <li class="nav-item Auth">
+                <button type="submit" class="btn" id="LoginBtn" name="LoginBtn"> Login</button>
+              </li>
+              <li class="nav-item Auth">
+                <button type="submit" onclick="GuestCreationFunc()" class="btn" id="SignUp" name="SignUp"> Sign Up</button>
+              </li>
+              <li class="nav-item UnAuth" style="display: none;">
+                <button type="submit" onclick="LogOutFunc()" class="btn" id="LogOut" name="LogOut"> Log Out</button>
+              </li>
+
+            
+             </ul>                      
+          </div>
+        </div>
+      </nav>
+<!--- header end---->
+      <div>&nbsp;</div>
+      <!--- Row start -->
+      <div style="text-align: right !important;" class="col-sm-12">
+        <div class="col-sm-2" style="padding:0px;">
+            <label class="CustomID" style="float: left;"> Form Name </label>
+            <input type="text" class="form-control" onchange="DuplicateIdentificationFunc()" id="FormName" name="FormName">
+        </div>
+         <div class="col-sm-4">
+             <textarea style="display: none;" id="FileHtml" name= "FileHtml"></textarea>
+        </div>
+        <div class="col-sm-2">
+            <input type="button" class="btn btn-secondary LoginBtn OnSave" id="dwn-btn" onclick="OnCheckDuplicateForm()" value="Save As New"/>
+        </div>
+        <div class="col-sm-2">
+            <input type="button" class="btn btn-secondary LoginBtn DisplayNone UpdateExcistingForm" id="dwn-btn" onclick="UpdateExcistingForm()" value="Update Form"/>
+        </div>
+       
+       <div class="col-sm-2">
+            <input type="button" class="btn btn-secondary LoginBtn" id="dwn-btn" onclick="DownloadFunc()" value="Download Code file"/>
+        </div>
+      </div>
+      <div id="BreadCrumb" class="col-sm-12 Row">
+          <div class="col-sm-1" style="padding: 1px 1px 1px 14px;">
+              <label>Field Type</label><br>
+              <select class="form-control ToolV2" id="FieldType" onchange="RequiredFields(this.value)" name="FieldType">
+                  <option value="">Select</option>
+                  <option value="Logo"> Logo </option>
+                  <option value="RadioButton"> Radio Button </option>
+                  <option value="CheckBoxV1"> Check Box </option>
+                  <option value="TextBox"> Text Box </option>
+                  <option value="TextArea"> Text Area </option>
+                  <option value="Text"> Text </option>
+                  <option value="Signature"> Signature </option>
+                <!----  <option value="ListPoints"> List points </option> --->
+               </select>
+          </div>
+          <div class="col-sm-1 RowHead Text">
+              <label> Text Type </label>
+            <select class="form-control Tool TextV2" id="TextType" onchange="TextTypeFields(this.value)" name="TextType">
+                <option value="">Select</option>
+                <option value="Title"> Title </option>
+                <option value="Heading"> Heading </option>
+                <option value="Paragraph"> Paragraph </option>
+                <option value="label"> label </option>
+                <option value="SubHeading"> Sub Heading </option>
+            </select>
+          </div>
+          <div style="text-align: center !important;" class="col-sm-1 RowHead Text">
+              <label> Italic </label><br>
+              <input type="checkbox" class="checkbox-inline Zoom ToolCheckBox CommonFieldV2" id="ItalicCheckBox" name="ItalicCheckBox"> 
+          </div>
+
+          <div style="text-align: center !important;" class="col-sm-1 RowHead RadioButton RequiredButn">
+             <label> Required </label><br>
+              <input type="checkbox" class="checkbox-inline Zoom ToolCheckBox RequiredButnV2 CommonFieldV2" id="Required" name="Required">
+          </div> 
+          <div style="text-align: center !important;" class="col-sm-1 RowHead GuestSignCheckBox">
+              <label> Signed By Guest? </label><br>
+                <input type="checkbox" class="checkbox-inline Zoom ToolCheckBox" id="SignGuestYes" name="SignGuest" value="yes">
+          </div>
+          <div class="col-sm-1 RowHead InputType">
+              <label> input type </label>
+              <select class="form-control ToolV2 Field" onchange="InputType(this.value)" id="inputtype" name="inputtype">
+                    <option value="">Select</option>
+                    <option value="text">Text</option>
+                    <option value="number">Number</option>
+                    <option value="date">Date</option>
+                    <option value="time">Time</option>
+              </select>
+          </div>
+          <div class="col-sm-1 RowHead CommonField">
+            <label> Guest View </label>
+            <select onchange="GuestEdit('GuestView')" class="form-control CommonFieldV2 Tool" id="GuestView" name="GuestView">
+                <option value="">Select</option>
+                <option value="Yes"> Yes </option>
+                <option value="No"> No </option>
+            </select>
+          </div>
+          <div class="col-sm-1 RowHead GuestView">
+            <label> Guest Edit </label>
+            <select class="form-control GuestView CommonFieldV2 Tool" id="GuestEdit" name="GuestEdit">
+                <option value="">Select</option>
+                <option value="Yes"> Yes </option>
+                <option value="No"> No </option>
+            </select>
+          </div>
+          <div class="col-sm-1 RowHead CommonField">
+            <label> RowSize* </label><br>
+             <!-- <input type="radio" class="radio-inline LogoV2" id="Full" name="Full"> FullRow
+             <input type="radio" class="radio-inline LogoV2" id="half" name="Full"> HalfRow -->
+             <select class="form-control LogoV2 Tool CommonFieldV2" id="RowSize">
+                 <option value=""> Select </option>
+                 <option value="Full"> Full </option>
+                 <option value="Half"> Half </option>
+             </select>
+         </div>
+         <div class="col-sm-1 RowHead RadioButton">
+             <label> Options </label>
+             <select class="form-control RadioButtonV2 Tool" onchange="RadioType(this.value,'Custom')" id="Options" name="Options">
+                    <option value="">Select</option>
+                    <option value="Default">Default</option>
+                    <option value="Custom">Custom</option>
+             </select>
+         </div>
+         <div class="col-sm-2 RowHead Custom">
+             <label> First Option </label>
+             <input type="text" class="form-control RadioButtonV2 Tool" id="FirstOption" name="FirstOption">
+         </div>
+         <div class="col-sm-2 RowHead Custom">
+            <label> Second Option </label>
+            <input type="text" class="form-control RadioButtonV2 Tool" id="SecondOption" name="SecondOption">
+        </div>
+          
+          <div class="col-sm-2 RowHead">
+            <label> Title </label><br> <!---- For Form Title ---->
+             <input type="text" class="form-control Tool" id="Title" name="Title">
+         </div>
+         <div class="col-sm-2 RowHead Logo">
+            <label> Logo URL </label><br>
+             <input type="text" class="form-control Tool LogoV2" id="Logo" name="Logo">
+         </div>
+         <div class="col-sm-2 RowHead Logo">
+            <label> Position </label><br>
+             <select class="form-control Tool LogoV2" id="Position" name="Position">
+                    <option value=""> Select</option>
+                    <option value="left"> Left </option>
+                    <option value="right"> Right </option>
+                    <option value="center"> Center </option>
+             </select>
+         </div>
+         <div class="col-sm-2 RowHead Macro">
+             <label> Macro </label>
+             <input type="text" class="form-control MacroV2 Tool" id="Macro" name="Macro">
+         </div>
+
+         
+          <div class="col-sm-1 RowHead CheckBoxV1">
+              <label> Count </label><br>
+              <input type="text" class="form-control Tool CheckBoxV2" onchange="CheckBoxOptionGenerateFun(this.value)" id="Count" name="Count">
+          </div>
+          <div class="col-sm-1 GenerateDiv">
+                <br>
+                <button type="submit" style="line-height: 1.3;margin-top: -1%;" class="btn" id="Generate" name="Generate"> Generate</button>
+          </div>
+          <div class="col-sm-1 UpdateDiv">
+            <br>
+            <button type="submit" style="line-height: 1.3;margin-top: -1%;" class="btnCss" id="Update" name="Update"> Update </button>
+          </div>
+      </div>
+      <div class="col-sm-12 Row RowHead RadioButton CheckBoxV1 QuestionBlock Text">
+        <div class="col-sm-12">
+            <label> Question </label>
+            <input type="text" class="form-control RadioButtonV2 Tool CheckBoxV2 QuestionBlockV2 Field TextV2 SignatureV2" id="RadioQuestion" name="RadioQuestion">
+        </div>
+      </div>
+      <div class="col-sm-12 Row RowHead" id="CheckBoxOptionBlock">
+           
+      </div>
+      <!--- Row end -->
+      <div>&nbsp;</div>
+
+      <div class="col-sm-12">
+          <div id="ResultForm">
+            <div class="hide" id="rmenu">
+                <ul class="unli">
+                    <li >
+                        <div onclick="DeleteElement()">Delete</div>
+                    </li>
+                    <li>
+                        <div onclick="EditElement()">Edit</div>
+                    </li>
+                </ul>
+            </div>
+          </div>
+      </div>
+
+   
+      
+</body>
+</html>
