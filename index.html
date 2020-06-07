@@ -392,7 +392,7 @@ label[class*='CustomID']::after {
  
                             type        : "GET",  
                             dataType    : "json", 
-                            url         : "http://localhost:59383/api/values/GuestInfo/"+$("#UserName").val(),
+                            url         : "http://phanindrazenoti-001-site1.gtempurl.com/api/values/GuestInfo/"+$("#UserName").val(),
                             async       : false,
                             contentType : "application/json",
                             headers     : {
@@ -1253,6 +1253,9 @@ label[class*='CustomID']::after {
 
               }
           }
+          
+          $(".UpdateExcistingForm").css("visibility", "visible");
+
        }
        function EditElement()
        {
@@ -1768,7 +1771,7 @@ label[class*='CustomID']::after {
                         $.ajax ({
  
                             type        : "POST",  
-                            url         : "http://localhost:59383/api/values/GuestInfo/",
+                            url         : "http://phanindrazenoti-001-site1.gtempurl.com/api/values/GuestInfo/",
                             data        :  Guestdata,  
                             async       :  false,
                             headers     : {
@@ -1809,7 +1812,7 @@ label[class*='CustomID']::after {
 
                                     type        : "GET",  
                                     dataType    : "json", 
-                                    url         : "http://localhost:59383/api/values/FormDuplicate/"+localStorage.getItem("UserName")+"/"+$("#FormName").val().trim().replace(" ","_"),
+                                    url         : "http://phanindrazenoti-001-site1.gtempurl.com/api/values/FormDuplicate/"+localStorage.getItem("UserName")+"/"+$("#FormName").val().trim().split(' ').join('_'),
                                     async       : false,
                                     contentType : "application/json",
                                     headers     : {
@@ -1826,7 +1829,7 @@ label[class*='CustomID']::after {
                                                         console.log(data);
                                                         if(data.length > 0)
                                                         {
-                                                            alert("There is a form already created with this name, try again with other name")
+                                                            alert("There is a form already created with this name, try again with other name");
                                                         }
                                                         else
                                                         {
@@ -1871,12 +1874,12 @@ label[class*='CustomID']::after {
                         var Date1 = new Date();
                         Date1 = Date1.toLocaleString();
                      
-                        var GuestFormdata = { "UserName": localStorage.getItem("UserName"), "GuestFormData": JSON.stringify(FormDataObject), "FormName": $("#FormName").val().trim().replace(" ","_"), "CreationDate" : Date1, "UpdatedDate" : Date1};
-
+                        var GuestFormdata = { "UserName": localStorage.getItem("UserName"), "GuestFormData": JSON.stringify(FormDataObject), "FormName": $("#FormName").val().trim().split(' ').join('_'), "CreationDate" : Date1, "UpdatedDate" : Date1};
+                           
                         $.ajax ({
  
                             type        : "POST",  
-                            url         : "http://localhost:59383/api/values/PostForm/",
+                            url         : "http://phanindrazenoti-001-site1.gtempurl.com/api/values/PostForm/",
                             data        :  GuestFormdata,  
                             async       :  false,
                             headers     : {
@@ -1929,7 +1932,7 @@ label[class*='CustomID']::after {
  
                     type        : "GET",  
                     dataType    : "json", 
-                    url         : "http://localhost:59383/api/values/GuestFormInfo/"+GuestName, 
+                    url         : "http://phanindrazenoti-001-site1.gtempurl.com/api/values/GuestFormInfo/"+GuestName,
                     async       : false,
                     contentType : "application/json",
                     headers     : {
@@ -1961,7 +1964,7 @@ label[class*='CustomID']::after {
                 for(var R = 0; R< DataRecords.length; R++)
                 {
                     var newStateVal = DataRecords[R].FormName;
-                    $("#PreviousFormsList").append("<option value="+ DataRecords[R].FormName +">"+ DataRecords[R].FormName.replace("_", " ") +"</option>");
+                    $("#PreviousFormsList").append("<option value="+ DataRecords[R].FormName +">"+ DataRecords[R].FormName.split('_').join(' ') +"</option>");
                 }
             }
 
@@ -1978,7 +1981,7 @@ label[class*='CustomID']::after {
                                   $.ajax ({
                                     type        : "GET",  
                                     dataType    : "json", 
-                                    url         : "http://localhost:59383/api/values/GuestFormCode/"+FormNameParam,
+                                    url         : "http://phanindrazenoti-001-site1.gtempurl.com/api/values/GuestFormCode/"+FormNameParam,
                                     async       : false,
                                     contentType : "application/json",
                                     headers     : {
@@ -2035,7 +2038,7 @@ label[class*='CustomID']::after {
                 }
                 HtmlAppendingFunc();
                 SigPreviousFunc();
-                $("#FormName").val($("#PreviousFormsList").val());
+                $("#FormName").val($("#PreviousFormsList").val().split('_').join(' '));
             }
 
             
@@ -2053,12 +2056,12 @@ label[class*='CustomID']::after {
                         var Date1 = new Date();
                         Date1 = Date1.toLocaleString();
                      
-                        var GuestFormdata = { "UserName": localStorage.getItem("UserName"), "GuestFormData": JSON.stringify(FormDataObject), "FormName": $("#FormName").val().trim().replace(" ","_"), "CreationDate" : Date1, "UpdatedDate" : Date1};
+                        var GuestFormdata = { "UserName": localStorage.getItem("UserName"), "GuestFormData": JSON.stringify(FormDataObject), "FormName": $("#FormName").val().trim().split(' ').join('_'), "CreationDate" : Date1, "UpdatedDate" : Date1};
 
                         $.ajax ({
  
                             type        : "PUT",  
-                            url         : "http://localhost:59383/api/values/UpdateGuestFormCode/",
+                            url         : "http://phanindrazenoti-001-site1.gtempurl.com/api/values/UpdateGuestFormCode/",
                             data        :  GuestFormdata,  
                             async       :  false,
                             headers     : {
